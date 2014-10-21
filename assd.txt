@@ -1,0 +1,16 @@
+create table auto(
+id_auto int primary key auto_increment,
+marca varchar (20),
+nom_aut varchar (20),
+placa varchar (20),
+color varchar (20));
+create table persona(
+id_persona int primary key auto_increment,
+id_auto int,
+nombre varchar(20),
+apellido varchar (20),
+doc varchar (11),
+
+foreign key (id_auto) references auto (id_auto)
+
+);
