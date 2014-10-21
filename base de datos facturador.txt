@@ -1,0 +1,22 @@
+CREATE DATABASE Facturador;
+
+use Facturador;
+
+CREATE TABLE factura (
+id_factura INT PRIMARY KEY AUTO_INCREMENT,
+FECHA DATE,
+VALOR_FACTURA DOUBLE
+);
+ 
+ CREATE TABLE producto(
+ id_producto int primary key auto_increment,
+ nombre varchar(45),
+ valor int 
+ );
+ 
+ create table factura_producto(
+ id_producto int,
+ id_factura int,
+ FOREIGN KEY (id_producto) REFERENCES producto (id_producto),
+ FOREIGN KEY (id_factura) REFERENCES factura (id_factura)
+  );
