@@ -1,0 +1,17 @@
+lREQUISITOS
+
+_____________________________________________________________________________________
+
+-El sistema habilitará las matrículas 15 días antes de iniciarse un nuevo curso
+-El sistema permitirá al administrador registrar a nuevos clientes
+-El sistema debe validar que la persona a registrar no deba cursos anteriores
+-El sistema debe validar que la persona no esté cursando un programa actual/
+-El sistema le permitirá al usuario cancelar o suspender una matricula.
+-El sistema permitirá al usuario consultar su matricula
+-El sistema permitirá al administrador cambiar el estado de la matricula (activa e inactiva)
+-El sistema permitirá cambiar el programa vinculado a la matricula pero esto generará un coste adicional
+-El sistema le permitirá al administrador realizar preinscripciones una vez se cierre la temporada de matriculas.
+-El sistema le permitirá al administrador cambiar el valor de la matrícula
+
+
+El sistema debe validar que la persona no esté cursando un programa actual/
